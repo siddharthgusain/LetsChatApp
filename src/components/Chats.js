@@ -62,8 +62,7 @@ const Chats  = () => {
               .then(() => setLoading(false))
               .catch((error) => console.log(error))
             })
-    })
-}
+    })}
     },[user, history]);
     
    
